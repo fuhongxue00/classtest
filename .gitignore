@@ -1,0 +1,4 @@
+/node_modules/*
+project.config.json
+cloudfunctions/*/node_modules/*
+project.private.config.json

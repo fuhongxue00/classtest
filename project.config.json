@@ -1,0 +1,269 @@
+{
+  "miniprogramRoot": "miniprogram/",
+  "cloudfunctionRoot": "cloudfunctions/",
+  "setting": {
+    "urlCheck": true,
+    "es6": true,
+    "enhance": true,
+    "postcss": false,
+    "preloadBackgroundData": false,
+    "minified": true,
+    "newFeature": true,
+    "coverView": true,
+    "nodeModules": true,
+    "autoAudits": false,
+    "showShadowRootInWxmlPanel": true,
+    "scopeDataCheck": false,
+    "uglifyFileName": false,
+    "checkInvalidKey": true,
+    "checkSiteMap": true,
+    "uploadWithSourceMap": true,
+    "compileHotReLoad": false,
+    "lazyloadPlaceholderEnable": false,
+    "useMultiFrameRuntime": true,
+    "useApiHook": true,
+    "useApiHostProcess": true,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    },
+    "enableEngineNative": false,
+    "useIsolateContext": true,
+    "userConfirmedBundleSwitch": false,
+    "packNpmManually": false,
+    "packNpmRelationList": [],
+    "minifyWXSS": true,
+    "disableUseStrict": false,
+    "showES6CompileOption": false,
+    "useCompilerPlugins": false,
+    "minifyWXML": true,
+    "useStaticServer": true
+  },
+  "appid": "wx1114496bb06074bf",
+  "projectname": "ClassTest",
+  "libVersion": "2.12.0",
+  "simulatorType": "wechat",
+  "simulatorPluginLibVersion": {},
+  "cloudfunctionTemplateRoot": "cloudfunctionTemplate/",
+  "condition": {
+    "miniprogram": {
+      "list": [
+        {
+          "name": "db guide",
+          "pathName": "pages/databaseGuide/databaseGuide",
+          "query": ""
+        },
+        {
+          "name": "chooseid",
+          "pathName": "pages/chooseid/chooseid",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "mainstu",
+          "pathName": "pages/mainstu/mainstu",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "entertest",
+          "pathName": "pages/entertest/entertest",
+          "query": "id=f3db088f5e7c027c000dd2e526f1660e",
+          "scene": null
+        },
+        {
+          "name": "viewgrade",
+          "pathName": "pages/viewgrade/viewgrade",
+          "query": "grade=40&timeRanking=11&testid=f3db088f5e7c027c000dd2e526f1660e",
+          "scene": null
+        },
+        {
+          "name": "viewteststu",
+          "pathName": "pages/viewteststu/viewteststu",
+          "query": "testid=f3db088f5e7c027c000dd2e526f1660e",
+          "scene": null
+        },
+        {
+          "name": "gradetea",
+          "pathName": "pages/gradetea/gradetea",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "viewstugrade",
+          "pathName": "pages/viewstugrade/viewstugrade",
+          "query": "testid=f3db088f5e7c027c000dd2e526f1660e",
+          "scene": null
+        },
+        {
+          "name": "viewclassroomtea",
+          "pathName": "pages/viewclassroomtea/viewclassroomtea",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "viewclassroomstu",
+          "pathName": "pages/viewclassroomstu/viewclassroomstu",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "classroomdetail",
+          "pathName": "pages/classroomdetail/classroomdetail",
+          "query": "id=42d70ff05e8b10e9004ffbb6213e5abc",
+          "scene": null
+        },
+        {
+          "name": "signsetting",
+          "pathName": "pages/signsetting/signsetting",
+          "query": "id=e984b69a5ee81e6100210dff36e3f0ac",
+          "scene": null
+        },
+        {
+          "name": "pages/signrecordstu/signrecordstu",
+          "pathName": "pages/signrecordstu/signrecordstu",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/signrecordtea/signrecordtea",
+          "pathName": "pages/signrecordtea/signrecordtea",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/signrecorddetail/signrecorddetail",
+          "pathName": "pages/signrecorddetail/signrecorddetail",
+          "query": "id=c1d8f6ae5ee994640000b7620fadb560",
+          "scene": null
+        },
+        {
+          "name": "pages/bulkimport/bulkimport",
+          "pathName": "pages/bulkimport/bulkimport",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/mainstu/mainstu",
+          "pathName": "pages/chooseid/chooseid",
+          "query": "scene=123",
+          "scene": 1011
+        },
+        {
+          "name": "pages/mainstu/mainstu",
+          "pathName": "pages/chooseid/chooseid",
+          "query": "scene=123",
+          "scene": 1011
+        },
+        {
+          "name": "pages/viewclassroomstu/viewclassroomstu",
+          "pathName": "pages/viewclassroomstu/viewclassroomstu",
+          "query": "scene=123",
+          "scene": 1011
+        },
+        {
+          "name": "pages/profiletea/profiletea",
+          "pathName": "pages/chooseid/chooseid",
+          "query": "scene=302581",
+          "scene": null
+        },
+        {
+          "name": "pages/profiletea/profiletea",
+          "pathName": "pages/chooseid/chooseid",
+          "query": "scene=302581",
+          "scene": null
+        },
+        {
+          "name": "pages/viewclassroomtea/viewclassroomtea",
+          "pathName": "pages/chooseid/chooseid",
+          "query": "scene=302581",
+          "scene": 1011
+        },
+        {
+          "name": "pages/addclassroom/addclassroom",
+          "pathName": "pages/chooseid/chooseid",
+          "query": "scene=302581",
+          "scene": 1011
+        },
+        {
+          "name": "pages/mainstu/mainstu",
+          "pathName": "pages/chooseid/chooseid",
+          "query": "scene=578916",
+          "scene": 1011
+        },
+        {
+          "name": "pages/mainstu/mainstu",
+          "pathName": "pages/chooseid/chooseid",
+          "query": "scene=b5416b755f424daf0031361466819a09",
+          "scene": null
+        },
+        {
+          "name": "pages/mainstu/mainstu",
+          "pathName": "pages/mainstu/mainstu",
+          "query": "scene=b5416b755f424daf0031361466819a09",
+          "scene": null
+        },
+        {
+          "name": "pages/mainstu/mainstu",
+          "pathName": "pages/mainstu/mainstu",
+          "query": "scene=b5416b755f424daf0031361466819a09",
+          "scene": null
+        },
+        {
+          "name": "pages/mainstu/mainstu",
+          "pathName": "pages/mainstu/mainstu",
+          "query": "scene=b5416b755f424daf0031361466819a09",
+          "scene": null
+        },
+        {
+          "name": "pages/mainstu/mainstu",
+          "pathName": "pages/mainstu/mainstu",
+          "query": "scene=b5416b755f424daf0031361466819a09",
+          "scene": null
+        },
+        {
+          "name": "pages/mainstu/mainstu",
+          "pathName": "pages/chooseid/chooseid",
+          "query": "scene=b5416b755f424daf0031361466819a09",
+          "scene": null
+        },
+        {
+          "name": "pages/mainstu/mainstu",
+          "pathName": "pages/chooseid/chooseid",
+          "query": "scene=c54dac465f60a25e000601c84a6ee340",
+          "scene": null
+        },
+        {
+          "name": "pages/mainstu/mainstu",
+          "pathName": "pages/mainstu/mainstu",
+          "query": "scene=c54dac465f60a25e000601c84a6ee340",
+          "scene": null
+        },
+        {
+          "name": "pages/mainstu/mainstu",
+          "pathName": "pages/chooseid/chooseid",
+          "query": "scene=c54dac465f60a25e000601c84a6ee340",
+          "scene": 1011
+        },
+        {
+          "name": "black",
+          "pathName": "pages/black/black",
+          "query": "",
+          "scene": null
+        }
+      ]
+    }
+  },
+  "compileType": "miniprogram",
+  "srcMiniprogramRoot": "miniprogram/",
+  "packOptions": {
+    "ignore": [],
+    "include": []
+  },
+  "editorSetting": {
+    "tabIndent": "insertSpaces",
+    "tabSize": 2
+  },
+  "description": "项目配置文件，详见文档：https://developers.weixin.qq.com/miniprogram/dev/devtools/projectconfig.html"
+}
